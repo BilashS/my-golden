@@ -1,0 +1,475 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: url("./img/first-bg.jpg") left 0 / 100% 100% no-repeat;
+}
+p{
+    margin: 0;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+.header-top{
+    padding-top: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-top__logo{
+    margin-left: 7px;
+}
+.header-top__nav {
+    margin-top: 3px;
+}
+.header-top__nav a{
+   text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 36px;
+    transition: all 0.5s ease;
+}
+.header-top__nav a:hover{
+    color: rgb(254,209,54);
+}
+.header-bottom{
+    padding: 193px 0 160px;
+    text-align: center;
+}
+.header-bottom p{
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0;
+    letter-spacing: -2px;
+}
+.header-bottom h1{
+    font-size: 70px;
+    color: #ffffff;
+    margin: 27px 0 45px;
+    letter-spacing: -1px;
+}
+button{
+    border: none;
+}
+.btn{
+    width: 241px;
+    height: 64px;
+    background: rgb(254,209,54);
+    color: rgb(72,69,67);
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    cursor: pointer;
+    background: #f2d55f;
+}
+.header-arrow{
+    position: fixed;
+    right: 30px;
+    bottom: 25px;
+}
+.header-arrow i{
+    color: #f2d55f;
+}
+
+.services{
+    padding: 120px 0 120px;
+}
+.services-top{
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.services-top p{
+    font-size: 16px;
+    color: #767676;
+    margin: 20px;
+}
+.services-bottom{
+    padding-top: 80px;
+    display: flex;
+    text-align: center;
+}
+.services-bottom__item{
+
+}
+h3{
+    font-size: 18px;
+    margin: 25px 0 25px;
+}
+.services-bottom__item p{
+    font-size: 14px;
+    color: #767676;
+    margin: 0 20px;
+    line-height: 25px;
+}
+.ourPortfolio{
+    padding: 120px 0 130px;
+    background: #f7f7f7;
+    text-align: center;
+}
+.ourPortfolio-top p{
+    font-size: 16px;
+    color: #767676;
+    margin: 25px 0;
+}
+.ourPortfolio-bottom{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutUs{
+    padding-top: 130px;
+    text-align: center;
+}
+.aboutUs p{
+    font-size: 16px;
+    color: #767676;
+    margin: 25px 0;
+}
+.aboutUs-bottom{
+    padding-top: 80px;
+}
+.aboutUs-bottom__item{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.aboutUs-bottom__item-info{
+    text-align: right;
+    width: 36%;
+}
+.aboutUs-bottom__item-info h3{
+
+}
+.aboutUs-bottom__item-info p{
+    font-size: 14px;
+    color: #767676;
+    margin: 0;
+    line-height: 25px;
+}
+.aboutUs-bottom__item-img{
+    width: 30%;
+}
+
+
+.aboutUs-bottom__item2{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.aboutUs-bottom__item2-info{
+    text-align: left;
+    width: 34%;
+}
+.aboutUs-bottom__item2-info h3{
+
+}
+.aboutUs-bottom__item2-info p{
+    font-size: 14px;
+    color: #767676;
+    margin: 0;
+    line-height: 25px;
+}
+.aboutUs-bottom__item2-img{
+    width: 30%;
+}
+
+
+.aboutUs-bottom__item3{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.aboutUs-bottom__item3-info{
+    text-align: right;
+    width: 36%;
+}
+.aboutUs-bottom__item3-info h3{
+
+}
+.aboutUs-bottom__item3-info p{
+    font-size: 14px;
+    color: #767676;
+    margin: 0;
+    line-height: 25px;
+}
+.aboutUs-bottom__item3-img{
+    width: 30%;
+}
+
+.aboutUs-bottom__item4{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.aboutUs-bottom__item4-info{
+    text-align: left;
+    width: 34%;
+}
+.aboutUs-bottom__item4-info h3{
+
+}
+.aboutUs-bottom__item4-info p{
+    font-size: 14px;
+    color: #767676;
+    margin: 0;
+    line-height: 25px;
+}
+.aboutUs-bottom__item4-img{
+    width: 30%;
+}
+
+
+footer{
+    height: 224px;
+}
+.footer-copyright p{
+    text-align: center;
+    padding-top: 120px;
+}
+
+.footer-copyright p{
+    font-size: 14px;
+    color: #565656;
+    margin: 0;
+}
+
+@media screen and (max-width: 970px){
+    .container{
+        width: 100%;
+    }
+    .header-top {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 890px){
+    .header-bottom p {
+        font-size: 30px;
+    }
+    .header-bottom h1 {
+        font-size: 60px;
+    }
+
+    .ourPortfolio-bottom {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .ourPortfolio-bottom__img{
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 835px){
+    .services-bottom {
+        display: block;
+    }
+    .services-bottom__item p {
+        width: 30%;
+        margin: 0 auto;
+    }
+    .services-bottom__item{
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .header-bottom p {
+        font-size: 20px;
+    }
+    .header-bottom h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 730px){
+    .aboutUs-bottom__item {
+        display: block;
+    }
+    .aboutUs-bottom__item-info {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .aboutUs-bottom__item-img {
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+
+    .aboutUs-bottom__item2 {
+        display: block;
+    }
+    .aboutUs-bottom__item2-img {
+        margin: 0 auto;
+    }
+    .aboutUs-bottom__item2-info {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .aboutUs-bottom__item3 {
+        display: block;
+    }
+    .aboutUs-bottom__item3-info {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .aboutUs-bottom__item3-img {
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+
+    .aboutUs-bottom__item4 {
+        display: block;
+    }
+    .aboutUs-bottom__item4-img {
+        margin: 0 auto;
+    }
+    .aboutUs-bottom__item4-info {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 651px){
+    .header-top__nav a.icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .header-top__nav a{
+        display: none;
+    }
+    .header-top__nav a.icon {
+        display: block;
+        color: #f2d55f;
+        margin: 0;
+        font-size: 25px;
+        transition: all 0.5s ease;
+    }
+    .header-top__nav.responsive{
+        position: relative;
+        top: 35px;
+        left: 10px;
+    }
+    .header-top__nav.responsive a.icon{
+        position: absolute;
+        bottom: 226px;
+    }
+    .header-top__nav.responsive a{
+        display: block;
+    }
+    .header-top__nav a {
+        color: #f2d55f;
+        margin: 20px 0;
+        font-size: 15px;
+    }
+    .header-bottom {
+        padding: 130px 0 130px;
+
+    }
+
+
+
+    .header-bottom h1 {
+        font-size: 35px;
+        margin: 15px 0 30px;
+
+    }
+
+    .services {
+        padding: 80px 0;
+    }
+    .ourPortfolio {
+        padding: 90px 0 110px;
+    }
+    h2 {
+        font-size: 35px;
+        letter-spacing: 0;
+        margin: 0;
+    }
+    .services-top p {
+        font-size: 14px;
+        color: #767676;
+        margin: 15px;
+    }
+    .ourPortfolio-top p {
+        font-size: 14px;
+        margin: 15px 0;
+    }
+    .aboutUs p {
+        font-size: 14px;
+        margin: 15px 0;
+    }
+    .footer-copyright p {
+        padding-top: 100px;
+    }
+    footer {
+        height: 190px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .aboutUs-bottom__item-info, .aboutUs-bottom__item2-info, .aboutUs-bottom__item3-info, .aboutUs-bottom__item4-info {
+        width: 75%;
+    }
+    .aboutUs-bottom__item-img, .aboutUs-bottom__item2-img, .aboutUs-bottom__item3-img, .aboutUs-bottom__item4-img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .services-bottom__item p {
+        width: 45%;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+    .header-bottom p {
+        font-size: 15px;
+    }
+    .header-bottom h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .services-bottom__item p {
+        width: 65%;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 350px){
+    .aboutUs-bottom__item-info, .aboutUs-bottom__item2-info, .aboutUs-bottom__item3-info, .aboutUs-bottom__item4-info {
+        width: 100%;
+    }
+
+}
+
